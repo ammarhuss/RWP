@@ -1,5 +1,8 @@
+Simulation and data files will be posted once our gets accepted.
+
 # RWP+ Repository
 This is a supplementary repository for the paper:
+
 [1] Hussein A. Ammar, Raviraj Adve, Shahram Shahbazpanahi, Gary Boudreau, and Kothapalli Venkata Srinivas. "RWP+: A New Random Waypoint Model for High-Speed Mobility".
 
 # Abstract
