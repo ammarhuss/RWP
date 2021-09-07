@@ -1,14 +1,13 @@
-Simulation and data files will be posted once the paper gets accepted.
 
 # RWP+ Repository
 This is a supplementary repository for the scientific article:
 
-[1] Hussein A. Ammar, Raviraj Adve, Shahram Shahbazpanahi, Gary Boudreau, and Kothapalli Venkata Srinivas. "RWP+: A New Random Waypoint Model for High-Speed Mobility".
+[1] Hussein A. Ammar, Raviraj Adve, Shahram Shahbazpanahi, Gary Boudreau, and Kothapalli Venkata Srinivas. "RWP+: A New Random Waypoint Model for High-Speed Mobility", IEEE Communications Letters.
 
 # Abstract
-In this letter, we emulate real-world statistics for mobility patterns on road systems. We then propose modifications to the random waypoint (RWP) model to better represent high-mobility profiles. In this regard, we show that the transition length is best represented by a lognormal distribution, velocity is best described by a linear combination of normal distributions centered on some set of velocities, and transition direction has a normal distribution. Compared to the assumptions used in the literature for mobile cellular networks, our modeling provides mobility metrics, such as handoff rates, that better characterize actual emulated trips from the collected statistics.
+In this letter, we emulate real-world statistics for mobility patterns on road systems. We then propose modifications to the assumptions of the random waypoint (RWP) model to better represent high-mobility profiles.We call the model under our new framework as RWP+. Specifically, we show that the lengths of the transitions which constitute a trip, are best represented by a lognormal distribution, and that the velocities are best described by a linear combination of normal distributions with different mean values. Compared to the assumptions used in the literature for mobile cellular networks, our modeling provides mobility metrics, such as handoff rates, that better characterize actual emulated trips from the collected statistics.
 
-# Collected Data Folder
+# CollectedData Folder
 This folder contains the data files collected from the open source routing machine (OSRM) in four studied areas:
 - Data_Manhattan.mat: 200 trips collected in Manhattan area.
 - Data_Toronto.mat: 200 trips collected in Toronto area.
@@ -19,6 +18,10 @@ To view useful metrics related to the paper please execute any of the following 
 - To plot the cumulative distribution function (CDF) and probability density function (PDF) of the transition length L, please execute the script "loadTransitionLengths.m".
 - To plot the PDF of the average velocity per transition V, please execute the following script "loadAvgVelocityPerTransition.m".
 - To plot the PDF of the bearing angle around the base angle \bar{\theta}b (the direction of the trip), please execute the following script "loadBearingAngle.m".
+
+We also add a python script files that can display as trip on an interactive map that opens as HTML document. Below is an example:
+https://github.com/ammarhuss/RWP/blob/main/Example_of_a_trip_Rome.PNG
+
 
 Each script file contains a flag "data_flag" which allows to choose which data to load.
 
