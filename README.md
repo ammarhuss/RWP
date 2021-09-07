@@ -22,14 +22,12 @@ Each script file contains a flag "data_flag" which allows to choose which data t
 
 We also add a python script files that can display as trip on an interactive map that opens as HTML document. Below are two examples:
 
-<br>
 ![alt text](https://github.com/ammarhuss/RWP/blob/main/Example_of_a_trip_Toronto.PNG)
 
-<br>
 ![alt text](https://github.com/ammarhuss/RWP/blob/main/Example_of_a_trip_Rome.PNG)
 
-<br>
-<br>
+
+
 
 # Theoretical and simulation results
 To simulate the Handoff (HO) rate for a specific area (Manhattan, Toronto, Shanghai, or Rome), please use the script file "HORate_theor_sim.m". The file also contains a flag "velocityPattern" which determines which area to simulate. The results will correspond to curves found in Figs.2 and 3 in [1].
