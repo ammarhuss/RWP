@@ -20,7 +20,7 @@ To view useful metrics related to the paper please execute any of the following 
 - To plot the PDF of the bearing angle around the base angle \bar{\theta}b (the direction of the trip), please execute the following script "loadBearingAngle.m".
 
 We also add a python script files that can display as trip on an interactive map that opens as HTML document. Below is an example:
-https://github.com/ammarhuss/RWP/blob/main/Example_of_a_trip_Rome.PNG
+![alt text](https://github.com/ammarhuss/RWP/blob/main/Example_of_a_trip_Rome.PNG)
 
 
 Each script file contains a flag "data_flag" which allows to choose which data to load.
