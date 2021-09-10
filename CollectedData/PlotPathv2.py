@@ -13,8 +13,8 @@ for High-Speed Mobility", IEEE Communications Letters.
 mymapAllTrips.html.
 You need to input the waypoint of each trip represented through the longitude
 and latitude as shown below in the example.
-To generate the trips from some data you can write yout own MATLAB script that
-organizes the input as you like, trhen you can copy the input to this file
+To generate the trips from some data you can write your own MATLAB script that
+organizes the input as you like, then you can copy the input to this file
 (like I'm doing in the example below) 
 ........................................................................
 """
