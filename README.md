@@ -10,7 +10,7 @@ In this letter, we emulate real-world statistics for mobility patterns on road s
 # Illustraion of Random Waypoint (RWP) mobility model
 The model is described through the following set of tuples:
 
-![formula](https://render.githubusercontent.com/render/math?math=\mathcal{M}=\left\{\left({\bf x}_{m-1},{\bf x}_{m},V_{m},s_{m}\right)\right\}_{m=1,\dots,M})
+
 
 ![alt text](https://github.com/ammarhuss/RWP/blob/main/Mobility_RWP.png)
 
