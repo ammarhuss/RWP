@@ -7,6 +7,13 @@ This is a supplementary repository for the scientific article:
 # Abstract
 In this letter, we emulate real-world statistics for mobility patterns on road systems. We then propose modifications to the assumptions of the random waypoint (RWP) model to better represent high-mobility profiles.We call the model under our new framework as RWP+. Specifically, we show that the lengths of the transitions which constitute a trip, are best represented by a lognormal distribution, and that the velocities are best described by a linear combination of normal distributions with different mean values. Compared to the assumptions used in the literature for mobile cellular networks, our modeling provides mobility metrics, such as handoff rates, that better characterize actual emulated trips from the collected statistics.
 
+# Illustraion of Random Waypoint (RWP) mobility model
+The model is described through the following set of tuples:
+
+![formula](https://render.githubusercontent.com/render/math?math=\mathcal{M}=\left\{\left({\bf x}_{m-1},{\bf x}_{m},V_{m},s_{m}\right)\right\}_{m=1,\dots,M})
+
+![alt text](https://github.com/ammarhuss/RWP/blob/main/Mobility_RWP.png)
+
 # CollectedData Folder
 This folder contains the data files collected from the open source routing machine (OSRM) in four studied areas:
 - Data_Manhattan.mat: 200 trips collected in Manhattan area.
