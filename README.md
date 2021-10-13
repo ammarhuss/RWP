@@ -2,7 +2,7 @@
 # RWP+ Repository
 This is a supplementary repository for the scientific article:
 
-[1] Hussein A. Ammar, Raviraj Adve, Shahram Shahbazpanahi, Gary Boudreau, and Kothapalli Venkata Srinivas. "RWP+: A New Random Waypoint Model for High-Speed Mobility", IEEE Communications Letters.
+[1] Hussein A. Ammar, Raviraj Adve, Shahram Shahbazpanahi, Gary Boudreau, and Kothapalli Venkata Srinivas. "[RWP+: A New Random Waypoint Model for High-Speed Mobility](https://ieeexplore.ieee.org/document/9531946)", in IEEE Communications Letters, doi: 10.1109/LCOMM.2021.3111530.
 
 # Abstract
 In this letter, we emulate real-world statistics for mobility patterns on road systems. We then propose modifications to the assumptions of the random waypoint (RWP) model to better represent high-mobility profiles.We call the model under our new framework as RWP+. Specifically, we show that the lengths of the transitions which constitute a trip, are best represented by a lognormal distribution, and that the velocities are best described by a linear combination of normal distributions with different mean values. Compared to the assumptions used in the literature for mobile cellular networks, our modeling provides mobility metrics, such as handoff rates, that better characterize actual emulated trips from the collected statistics.
@@ -50,4 +50,5 @@ To simulate the Handoff (HO) rate for a specific area (Manhattan, Toronto, Shang
 # Empirical results
 Empirical results correspond to results obtained when using the trips collected from OSRM, these trips will represent the movemenet of the user. Still to calculate the empirical HO rate we need to generate locations for the base stations (BSs) as a Poisson Point Process (PPP) with a density \lambda. To perform this simulation, please use the script "HORate_empirical.m" found in the collected data folder. The results will correspond to the "Empirial data" curve found in Figs.2 and 3 in [1].
 
-
+# Acknowledgement
+This work was supported in part by the Natural Sciences and Engineering Research Council (NSERC) of Canada and in part by Ericsson Canada.
